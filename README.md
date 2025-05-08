@@ -1,3 +1,5 @@
+# law-dataset-exploring
+
 these are data sets listed here: https://queensuca-my.sharepoint.com/:x:/r/personal/xz27_queensu_ca/Documents/1_Research/Student_Weekly_Report/Hendrix/Legal%20Research%20Agent%20Datasets.xlsx?d=w67fe80b151bb4516b75e5e65bb7955d6&csf=1&web=1&e=00TT6C
 
 ## refugee-law-lab/canadian-legal-data from hugging face
