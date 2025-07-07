@@ -92,3 +92,53 @@ reading this court case: https://hudoc.echr.coe.int/eng#{%22documentcollectionid
 The INTRODUCTION section contains a mention of an applicable law to the case, but otherwise the FACTS section contains only the general case info, then the RELEVANT LEGAL FRAMEWORK AND PRACTICE section details the laws applied to this scenario covering "relevant domestic law", "relevant administrative practice", and "relevant domestic case-law".
 - I would need to have available the source body of Italy domestic law for the automated research function to be able to identify the relevant laws
 
+
+## CanLII employment law cases with structured data
+
+link to csv file: https://queensuca-my.sharepoint.com/:x:/g/personal/14cfl_queensu_ca/EUQlEhUQZ7tJpgRo3_za-YoBriz--6u6SVQtQYY6Y5AsMQ?e=gmWwWT
+
+csv file stored here: [employment_cases.csv](./employment_cases/employment_cases.csv).
+
+table column headers:
+- Caseid
+- Name
+- Case name and (case citation)
+- URL
+    - either a url in the format `http://canlii.ca/t/<uid>` where `<uid>` is replaced with some unique id, or
+    - `NOT FOUND` in the case there is no URL for this case pdf
+- Year
+- Court
+- Province
+- Judge name
+- Occupation
+- Type of Job
+- Industry
+- Length of service
+- Supervision/review of work
+- Ability to hire employees
+- Delegation of tasks
+- Ownership of tools
+- Chance of profit
+- Risk of loss
+- Exclusivity of services
+- Who sets the work hours
+- Where the work is performed
+- Is the worker required to wear a uniform?
+- Outcome
+- Notes
+- Audited\/Initials 
+- Court_type
+- Court_loc
+- leaf_id
+- court_full
+
+more details on the table column header values can be found in [employment_column_value_meanings.xlsx](./employment_cases/employment_column_value_meanings.xlsx)
+
+Need to download all the cases as pdfs with file names being `<Caseid>.pdf`.
+
+Based on the view of the website:
+
+![CanLII](./CanLII%20case%20html%20inspection%20for%20pdf-link.png)
+
+When you navigate to the URL, you can access the pdf from the `<a id="pdf-link" href="..."></a>` html element.
+
