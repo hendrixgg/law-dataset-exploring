@@ -97,6 +97,16 @@ The INTRODUCTION section contains a mention of an applicable law to the case, bu
 
 link to csv file: https://queensuca-my.sharepoint.com/:x:/g/personal/14cfl_queensu_ca/EUQlEhUQZ7tJpgRo3_za-YoBriz--6u6SVQtQYY6Y5AsMQ?e=gmWwWT
 
+Certain case files that had canlii links did not have proper pdf downloads available, what was done in those cases is listed below:
+
+| case_id | case_file_obtained | resolution_method |
+| - | - | - |
+| 338 | ✅ | website print to pdf |
+| 378 | ✅ | website print to pdf |
+| 407 | ✅ | website print to pdf |
+| 408 | ✅ | website print to pdf |
+| 409 | ✅ | website print to pdf |
+
 csv file stored here: [employment_cases.csv](./employment_cases/employment_cases.csv).
 
 table column headers:
@@ -132,7 +142,7 @@ table column headers:
 - leaf_id
 - court_full
 
-more details on the table column header values can be found in [employment_column_value_meanings.xlsx](./employment_cases/employment_column_value_meanings.xlsx)
+more details on the table column header values can be found in [employment_dataset_from_david.xlsx](./employment_cases/employment_dataset_from_david.xlsx)
 
 Need to download all the cases as pdfs with file names being `<Caseid>.pdf`.
 
